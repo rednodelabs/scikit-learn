@@ -32,19 +32,19 @@ except ImportError:
 builtins.__SKLEARN_SETUP__ = True
 
 
-DISTNAME = 'scikit-learn'
-DESCRIPTION = 'A set of python modules for machine learning and data mining'
+DISTNAME = 'rnl-scikit-learn'
+DESCRIPTION = 'RedNodeLabs\' fork of scikit-learn with optimizations for Real-Time Location Systems'
 with open('README.rst') as f:
     LONG_DESCRIPTION = f.read()
-MAINTAINER = 'Andreas Mueller'
-MAINTAINER_EMAIL = 'amueller@ais.uni-bonn.de'
+MAINTAINER = 'Antonio Escobar'
+MAINTAINER_EMAIL = 'antonio@rednodelabs.com'
 URL = 'http://scikit-learn.org'
-DOWNLOAD_URL = 'https://pypi.org/project/scikit-learn/#files'
+DOWNLOAD_URL = 'https://pypi.org/project/rnl-scikit-learn/#files'
 LICENSE = 'new BSD'
 PROJECT_URLS = {
     'Bug Tracker': 'https://github.com/scikit-learn/scikit-learn/issues',
     'Documentation': 'https://scikit-learn.org/stable/documentation.html',
-    'Source Code': 'https://github.com/scikit-learn/scikit-learn'
+    'Source Code': 'https://github.com/rednodelabs/scikit-learn'
 }
 
 # We can actually import a restricted version of sklearn that
